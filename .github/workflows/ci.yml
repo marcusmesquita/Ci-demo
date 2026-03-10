@@ -8,4 +8,4 @@ jobs:
 
     steps:
       - name: Print message
-        run: echo "Pipeline executado com sucesso!"
+        run: echo "Pipeline sendo executado com sucesso!"
