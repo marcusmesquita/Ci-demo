@@ -1,8 +1,16 @@
-1. Foi desenvolvido um projeto com pipeline simples utilizando Continuous Integration e a ferramenta GitHub Actions.
+1. Descrição do Projeto 
 
-2. O objetivo do pipeline criado é executar uma mensagem de texto, mostrando que o código foi executado com sucesso.
+   Foi desenvolvido um projeto com pipeline simples utilizando Continuous Integration e a ferramenta GitHub Actions.
 
-3. Estrutura do projeto: .github/workflows/ci.yml, README.md
+2. Objetivo da atividade
+
+     O objetivo do pipeline criado é executar uma mensagem de texto, mostrando que o código foi executado com sucesso.
+
+3. Estrutura do projeto
+ 
+     .github/workflows/ci.yml
+   
+     README.md
 
 4. Explicação do WorkFlow
 
@@ -34,4 +42,6 @@
   
     Exibição do resultado: A mensagem de sucesso é registrada nos logs do GitHub Actions.
 
-6. Quando a pipeline termina de ser executada, o GitHub Actions fornece um log detalhado. Se rodar o arquivo sem erros, um ícone de "check" aparecerá ao lado do commit. Caso ocorra algum erro no script ou na configuração, um ícone de erro indicará que a integração falhou, permitindo assim, uma correção rápida.
+6.  Resultado da executado
+    
+     Quando a pipeline termina de ser executada, o GitHub Actions fornece um log detalhado. Se rodar o arquivo sem erros, um ícone de "check" aparecerá ao lado do commit. Caso ocorra algum erro no script ou na configuração, um ícone de erro indicará que a integração falhou, permitindo assim, uma correção rápida.
